@@ -19,17 +19,26 @@ html, body {
 body {
   font-family: 'Mystery Quest', cursive;
   font-size: 1.6rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.789),rgba(0, 0, 0, 0.5)), url(https://wallpapercave.com/wp/wp8740946.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.789),rgba(0, 0, 0, 0.5)), url(/img/wp-maratona-explorer.jpg) no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-position:center center;
+  overflow: overlay;
 
 
 }
+
+
 
 main {
 	width: 100%;
 	margin: auto;
 	text-align: center;
+	padding: 2.5rem;
 
 }
+
+
 
 h1 {
 	font-size: 6.5rem;
@@ -62,10 +71,11 @@ input {
 	width: 40rem;
 	height: 3rem;
 	margin-inline-end: 2rem;
-    border: 8px solid var(--borda);
+   
 }
 
 .myButton {
+	margin: 1rem 0 8rem 0;
 	box-shadow:inset 0px 1px 0px 0px #e184f3;
 	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
 	background-color:#c123de;
@@ -89,4 +99,17 @@ input {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+
+footer {
+	width: 100%;
+	margin: auto;
+	background-color: rgba(128, 128, 128, 0.308);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: auto;
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
 }
