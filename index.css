@@ -69,13 +69,13 @@ input, button {
 	display: block;
 	width: 100%;
   
-	padding: 20px;
-	font-size: 20px;
-	border-radius: 4px;
+	padding: 2rem;
+	font-size: 2rem;
+	border-radius: 4rem;
   }
   
   input {
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
   }
   
   button {
@@ -105,6 +105,25 @@ input, button {
 	border: 3px solid orange;  /* creates padding around scroll thumb */
   }
 
+  /* RESPOSTAS */
+
+  #resposta {
+    margin-block: 2.5rem;
+  color: #d2a639;
+
+
+  
+    transition: opacity 1s;
+  }
+
+  #resposta main {
+    font-size: 2.5rem;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    color: #d2a639;
+
+  }
 
 footer {
   width: 100%;

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="index.css">
 <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/5746/5746927.png" type="image/x-icon">
   <title>Descubra o seu Futuro - Maratona Explorer</title>
@@ -22,8 +22,9 @@
   <figcaption>Bola de Cristal RocketSeat</figcaption>
   <h1 class="gradient">Vou revelar o seu Destino!</h1>
   <p>Clique em fazer pergunta para que o seu destino seja relevado.</p>
-  <input type="text" placeholder="Digite a sua pergunta...">
-  <button class="myButton">Fazer Pergunta</button>
+  <input id="inputPergunta" type="text" placeholder="Digite sua pergunta" required>
+  <button id="buttonPerguntar" onclick="fazerPergunta()" class="myButton">Fazer Pergunta</button>
+  <h3 id="resposta"></h3>
 </main>
 
 <footer>
@@ -51,5 +52,9 @@ style=" fill:#000;"><path fill="#4caf50" d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.6
 </a>
 
 </footer>
+<script 
+type="text/javascript" 
+src="./index.js" defer></script>
+
 </body>
 </html>
