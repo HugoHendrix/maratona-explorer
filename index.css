@@ -18,8 +18,8 @@ body {
 body {
   font-family: "Mystery Quest", cursive;
   font-size: 1.6rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.789), rgba(0, 0, 0, 0.5)),
-    url(/wp-maratona-explorer.jpg) no-repeat center center;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.789), rgba(0, 0, 0, 0.5)), url(/wp-maratona-explorer.jpg);
   background-size: 100% auto;
   background-attachment: fixed;
   background-position: center center;
